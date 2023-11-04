@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <h2>This is HTML forms tutorial</h2>
+    <form action="backend.php">
+        <br>
+        <label for="name"> Name </label>
+       
+
+        <div>
+            <input type="text" name="MYNAME" id="name">
+            <!-- after name write something that is same as the id given below -->
+        </div>
+        <br>
+        <label for="roll"> roll number</label>
+        <div>
+           <input type="text" name="mYROLL" id="roll">
+        </div>
+        <br>
+        
+        <div>
+            Are you elegible?:<input type="checkbox" name="myeligibility" checked>
+            <!-- it already checks the box by itself when you add the checked keyword -->
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="" id="">
+        </div>
+        Gender:Male <input type="radio" name="Mygender"> Female <input type="radio" name="Mygender"> other <input type="radio" name="Mygender">
+        
+        <div>
+            Bonus: <input type="number" name="" id="">
+        </div>
+        <br>
+        <div>
+            Write about yourself:<textarea name="Mytext" cols="90" rows="'20"></textarea>
+        </div>
+        <label for="car">Car</label>
+        <select name="mycar" id="car">
+            <option value="swift">swift</option>
+            <option value="BMW" selected>BMW </option>
+        </select>
+
+        <div>
+            <input type="submit" value="Submit now">
+            <input type="reset" value="Resee now">
+        </div>
+        <!-- alt + down key to shift it downwards -->
+    </form>
+</body>
+</html>
